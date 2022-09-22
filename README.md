@@ -7,5 +7,6 @@ This work with private directories on Google Storage.
 
 We need to create them 
 
+'''
 gcloud storage buckets create gs://BUCKET_NAME --project=PROJECT_ID  --location=europe-west1 --uniform-bucket-level-access
-
+'''
