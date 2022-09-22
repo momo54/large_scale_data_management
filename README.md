@@ -18,6 +18,12 @@ Next you can copy data/code using gstutils (see run.sh)
 
 Full Data are available at: http://downloads.dbpedia.org/3.5.1/en/page_links_en.nt.bz2 (keep it compressed). 
 
+```
+bzcat page_links_en.nt.bz2 | wc -l
+ 119077682
+```
+
+
 ## Running
 
 Ensure data and code are uploaded.
