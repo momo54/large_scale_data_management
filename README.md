@@ -5,7 +5,7 @@ Modified for running on Google Cloud Dataproc
 
 This work with private directories on Google Storage.
 
-We need to create them 
+We need to create a root bucket to store data and code   on Google Cloud Storage
 
 '''
 gcloud storage buckets create gs://BUCKET_NAME --project=PROJECT_ID  --location=europe-west1 --uniform-bucket-level-access
