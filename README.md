@@ -31,3 +31,9 @@ Next update dataproc.py accordingly then run.
 
 Do not forget to stop your cluster at when job is finished.
 
+hints: 1 master / 2 slaves on page_links
+
+```
+2022-09-22 17:10:37,648 [main] INFO  org.apache.pig.Main - Pig script completed in 1 hour, 16 minutes, 49 seconds and 944 milliseconds (4609944 ms)
+```
+
