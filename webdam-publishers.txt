@@ -1,0 +1,3 @@
+Foundations of Databases	Addison-Wesley	USA
+Foundations of Databases	Vuibert	       France
+Web Data Management	Cambridge University Press	USA
