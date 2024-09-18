@@ -2,7 +2,7 @@
 from org.apache.pig.scripting import *
 
 INIT = Pig.compile("""
-A = LOAD 'gs://small_page_links/small_page_links.nt' using PigStorage(' ') as (url:chararray, p:chararray, link:chararray);
+A = LOAD 'gs://public_lddm_data/small_page_links.nt' using PigStorage(' ') as (url:chararray, p:chararray, link:chararray);
 B = GROUP A by url;                                                                                  
 C = foreach B generate group as url, 1 as pagerank, A.link as links;                                 
 STORE C into '$docs_in';
