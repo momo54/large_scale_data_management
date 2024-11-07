@@ -1,0 +1,9 @@
+certifi==2024.8.30
+charset-normalizer==3.4.0
+idna==3.10
+py4j==0.10.9.7
+pyspark==3.5.3
+requests==2.32.3
+six==1.16.0
+sseclient==0.0.27
+urllib3==2.2.3
